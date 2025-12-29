@@ -37,16 +37,20 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState(null);
 
   const skills = {
-    "What technologies do I use?": [
+    // prettier-ignore
+    "Technologies": [
       "I primarily work with technologies like Angular and WordPress, and have experience with others like React, Astro, Tailwind, Bootstrap, and others.",
     ],
-    "My experience": [
+    // prettier-ignore
+    "Experience": [
       "I worked for just over 10 years in the Education tech industry developing and implementing web solutions for educators and students, and over a year in the Climate tech sector focusing on leading frontend development for a carbon accounting platform.",
     ],
-    "My education": [
+    // prettier-ignore
+    "Education": [
       "I studied at Westfield State University, earning a Bachelor's degree in Computer Information Systems and Business Management with a concentration in Management in December 2014.",
     ],
-    "How do I work in a team?": [
+    // prettier-ignore
+    "Teamwork": [
       "I have experience working in multidisciplinary teams, where I have been responsible for frontend development of web applications. We currently utilize Azure DevOps for project management and version control. I also have experience using other tools such as Asana, Trello, Jira, and GitHub facilitating organization and collaboration within in-person, hybrid, and remote teams.",
     ],
   };
